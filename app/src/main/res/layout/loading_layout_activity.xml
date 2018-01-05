@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bg">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back"
+            android:id="@+id/onBack"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="文件"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="     个人目前暂时并没有提供上传文件服务器地址，此功能暂时不展示，但是框架里面的功能已经验证过没有问题，请大家见谅！"
+        android:textSize="14dp"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:padding="10dp">
+         <TextView
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:padding="15dp"
+             android:gravity="center"
+             android:text="下载"
+             android:textSize="14dp"
+             android:textColor="@color/white"
+             android:background="@drawable/title_bg"
+             android:onClick="DownLoadingClick"/>
+
+         <LinearLayout
+             android:id="@+id/downloadingLayout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="15dp"
+             android:padding="10dp"
+             android:orientation="vertical"
+             android:background="@drawable/text_bg"
+             android:visibility="gone">
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="15dp"
+              android:text="下载文件名称：360手机助手"/>
+          <TextView
+                 android:id="@+id/downloadProgress"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:padding="15dp"
+                 android:text="下载进度："/>
+          <TextView
+                 android:id="@+id/downloadSize"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:padding="15dp"
+                 android:text="文件大小："/>
+
+          <TextView
+                 android:id="@+id/downloadStatus"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:padding="15dp"
+                 android:text="下载状态："/>
+
+         </LinearLayout>
+     </LinearLayout>
+</LinearLayout>

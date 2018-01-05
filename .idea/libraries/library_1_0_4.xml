@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.0.4">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/3760a191a8561e8606ad73ac4dd697124c2c86fc/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3760a191a8561e8606ad73ac4dd697124c2c86fc/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wuxiaolong.pullloadmorerecyclerview/library/1.0.4/a5bc4208c94eedd041f6589c95c5752be047a470/library-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android_work\androidStudio\work\frame-lib-demo\Develop-the-App-framework\app-user-frame-lib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45855c8a9352accd31ba8d3c0aa3340fca15bf86">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Develop-the-App-framework\app\build\intermediates\pre-dexed\debug\classes_79e386a366e887ee563de4ce49d5763ca15c49fb.jar" />
+    </item>
+
+</items>

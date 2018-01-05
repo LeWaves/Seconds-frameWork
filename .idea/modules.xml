@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Develop-the-App-framework.iml" filepath="$PROJECT_DIR$/Develop-the-App-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-user-frame-lib/app-user-frame-lib.iml" filepath="$PROJECT_DIR$/app-user-frame-lib/app-user-frame-lib.iml" />
+    </modules>
+  </component>
+</project>
