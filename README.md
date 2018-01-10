@@ -1,6 +1,6 @@
 
 #  Seconds-framework【开发App框架】
-[![](https://jitpack.io/v/LeWaves/App-framework.svg)](https://jitpack.io/#LeWaves/App-framework)
+[![](https://jitpack.io/v/LeWaves/Seconds-frameWork.svg)](https://jitpack.io/#LeWaves/Seconds-frameWork)
 
 快速开发App框架，简单，便捷，支持（网络请求，图片加载，缓存，视频）。
 
@@ -56,7 +56,7 @@
    
            ...      
 	   
-           compile 'com.github.LeWaves:App-framework:v-0.1.0'
+           compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.0'
               
        }
        
