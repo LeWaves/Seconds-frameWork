@@ -1,5 +1,5 @@
 
-#  App-framework【开发App框架】
+#  Seconds-framework【开发App框架】
 [![](https://jitpack.io/v/LeWaves/App-framework.svg)](https://jitpack.io/#LeWaves/App-framework)
 
 快速开发App框架，简单，便捷，支持（网络请求，图片加载，缓存，视频）。
