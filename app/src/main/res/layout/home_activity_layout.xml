@@ -88,9 +88,34 @@
                 android:onClick="onShowImgRequest"/>
 
             <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="权限申请"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="20dp"
+                android:drawableLeft="@mipmap/storage"
+                android:background="@drawable/text_bg"
+                android:textSize="20dp"
+                android:layout_margin="15dp"
+                android:onClick="onShowPermissionRequest"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="滑動控件封裝"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="20dp"
+                android:drawableLeft="@mipmap/scroll"
+                android:background="@drawable/text_bg"
+                android:textSize="20dp"
+                android:layout_margin="15dp"
+                android:onClick="onShowScrollView"/>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" E-mail : lewaves@yeah.net \n\n项目地址：Develop-the-App-framework"
+                android:text="  E-mail : lewaves@yeah.net \n\n项目地址：Seconds-framework"
                 android:layout_margin="15dp"
                 android:onClick="OpenGitHubHttp"/>
         </LinearLayout>

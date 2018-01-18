@@ -36,8 +36,14 @@ public class HomeActivity extends AppCompatActivity {
     }
     public void OpenGitHubHttp(View view){
         Intent it = new Intent(HomeActivity.this,DetailsActivity.class);
-        it.putExtra("url","https://github.com/LeWaves/Develop-the-App-framework");
+        it.putExtra("url","https://github.com/LeWaves/Seconds-framework");
         startActivity( it);
+    }
+    public void onShowPermissionRequest(View view){
+        startActivity( new Intent(HomeActivity.this,PermissionActivity.class));
+    }
+    public void onShowScrollView(View view){
+        startActivity( new Intent(HomeActivity.this,ScrollViewActivity.class));
     }
 
 

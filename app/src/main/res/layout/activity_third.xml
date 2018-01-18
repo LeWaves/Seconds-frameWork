@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lt.integrate.frame.scrollview.recycleview.RecyclerScrollview
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="快捷查询"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="更多内容，方便查询"/>
+        </RelativeLayout>
+
+
+       <!-- descendantFocusability
+        该属性是当一个为view获取焦点时，定义viewGroup和其子控件两者之间的关系。
+        beforeDescendants：viewgroup会优先其子类控件而获取到焦点
+        afterDescendants：viewgroup只有当其子类控件不需要获取焦点时才获取焦点
+        blocksDescendants：viewgroup会覆盖子类控件而直接获得焦点-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.lt.integrate.frame.scrollview.recycleview.RecyclerScrollview>

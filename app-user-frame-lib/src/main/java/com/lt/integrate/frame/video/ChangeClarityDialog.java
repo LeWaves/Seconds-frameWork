@@ -15,7 +15,7 @@ import com.lt.integrate.frame.R;
 import java.util.List;
 
 /**
- * Created by XiaoJianjun on 2017/7/6.
+ * Created by XiaoJianjun on 2017/5/5.
  * 切换清晰度对话框（仿腾讯视频切换清晰度的对话框）.
  */
 public class ChangeClarityDialog extends Dialog {

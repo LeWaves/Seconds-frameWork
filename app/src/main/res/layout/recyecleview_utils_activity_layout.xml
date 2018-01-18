@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bg">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back"
+            android:id="@+id/onBack"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text=" RecyeleView 封装"
+            android:padding="5dp"/>
+    </RelativeLayout>
+           <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/text_bg"
+                android:textSize="14dp"
+                android:layout_margin="15dp"
+                android:onClick="onLinearLayout"
+                android:text=" LinearLayout "/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/text_bg"
+                android:textSize="14dp"
+                android:layout_margin="15dp"
+                android:onClick="onEndlessLinearLayout"
+                android:text="EndlessLinearLayout"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="14dp"
+                android:background="@drawable/text_bg"
+                android:textSize="14dp"
+                android:layout_margin="15dp"
+                android:onClick="onEndlessGridLayout"
+                android:text=" EndlessGridLayout "/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/text_bg"
+                android:textSize="14dp"
+                android:layout_margin="15dp"
+                android:onClick="onEndlessStaggeredGridLayout"
+                android:text="EndlessStaggeredGridLayout"/>
+
+
+
+</LinearLayout>
+
