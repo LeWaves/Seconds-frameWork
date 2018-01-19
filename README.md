@@ -419,7 +419,7 @@
 
     效果图
 
-        ![image](https://github.com/LeWaves/frame-lib/blob/master/screenshots/waves.gif)
+        ![image](https://github.com/LeWaves/Seconds-frameWork/blob/master/screenshots/waves.gif)
 
 
     
