@@ -52,29 +52,36 @@
             android:src="@mipmap/back"
             android:id="@+id/onBack"
             android:padding="10dp"/>
+
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="45dp"
+            android:layout_toEndOf="@+id/onBack"
+            android:layout_toStartOf="@+id/imageView2"
             app:tabGravity="center"
-            app:tabMode="fixed"
             app:tabIndicatorColor="@color/white"
+            app:tabMode="fixed"
             app:tabTextAppearance="@style/MyTabLayoutTextAppearance">
 
-        </android.support.design.widget.TabLayout >
+        </android.support.design.widget.TabLayout>
+
         <TextView
             android:id="@+id/detailView"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/onBack"
+            android:layout_toStartOf="@+id/imageView2"
             android:gravity="center"
-            android:text="@string/detail"/>
+            android:text="@string/detail"
+            android:textColor="@color/white" />
         <ImageView
             android:layout_width="45dp"
             android:layout_height="match_parent"
             android:src="@mipmap/more"
             android:layout_alignParentRight="true"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:id="@+id/imageView2" />
     </RelativeLayout>
     <com.lt.integrate.frame.view.CustomViewPager
         android:id="@+id/viewpager"
