@@ -101,7 +101,7 @@
              
         网络加载数据和网页加载数据展示效果图
         
-        ![image](https://github.com/LeWaves/frame-lib/blob/master/screenshots/video.gif)
+        ![image](https://github.com/LeWaves/Seconds-frameWork/blob/master/screenshots/video.gif)
         
             
     
@@ -322,7 +322,7 @@
     
     图片展示效果图
 
-        ![image](https://github.com/LeWaves/frame-lib/blob/master/screenshots/imageview.png)
+        ![image](https://github.com/LeWaves/Seconds-frameWork/blob/master/screenshots/imageview.png)
 
 
 
