@@ -418,6 +418,8 @@
 
 
     效果图
+       
+       录的屏通过在线MP4转换的gif图比较模糊卡顿，大家可以下载demo或者提供的apk安装。
 
         ![image](https://github.com/LeWaves/Seconds-frameWork/blob/master/screenshots/waves.gif)
 
