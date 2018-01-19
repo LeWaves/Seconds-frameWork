@@ -1,5 +1,6 @@
 package com.lt.integrate.frame.recycleview;
 
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
@@ -233,6 +234,14 @@ public class HeaderAndFooterRecyclerViewAdapter extends RecyclerView.Adapter<Rec
 
         if (mLayoutManager == null && mRecyclerView != null) {
             mLayoutManager = mRecyclerView.getLayoutManager();
+            if(mLayoutManager instanceof StaggeredGridLayoutManager) {
+                ViewGroup.LayoutParams lp = holder.itemView.getLayoutParams();
+                if(lp != null
+                        && lp instanceof StaggeredGridLayoutManager.LayoutParams) {
+                    StaggeredGridLayoutManager.LayoutParams p = (StaggeredGridLayoutManager.LayoutParams) lp;
+                    p.setFullSpan(holder.getLayoutPosition() == 0);
+                }
+            }
         }
     }
 }

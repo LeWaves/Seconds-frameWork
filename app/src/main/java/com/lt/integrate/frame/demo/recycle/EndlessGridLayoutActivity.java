@@ -78,7 +78,6 @@ public class EndlessGridLayoutActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(manager);
 
         RecyclerViewUtils.setHeaderView(mRecyclerView, new SampleHeader(this));
-
         mRecyclerView.addOnScrollListener(mOnScrollListener);
     }
 

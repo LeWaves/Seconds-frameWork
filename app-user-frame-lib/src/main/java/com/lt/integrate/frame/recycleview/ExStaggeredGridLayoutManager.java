@@ -63,4 +63,5 @@ public class ExStaggeredGridLayoutManager extends StaggeredGridLayoutManager {
         }
         super.onMeasure(recycler, state, widthSpec, heightSpec);
     }
+
 }
