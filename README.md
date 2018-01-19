@@ -97,11 +97,7 @@
                  public void onFailure(VolleyError error) {
                     
                  }
-             },tag);
-             
-        网络加载数据和网页加载数据展示效果图
-        
-        ![image](https://github.com/LeWaves/Seconds-frameWork/blob/master/screenshots/video.gif)
+             },tag);              
         
             
     
@@ -227,8 +223,9 @@
 ####    **视频播放**
 
 
-    此功能是引用了NiceVideoPlayer框架, 这里不再简述。可以详细查看[NiceVideoPlayer](https://github.com/jacky1234/NiceVideoPlayer)原文。
-    
+    此功能是引用了NiceVideoPlayer框架, 这里不再简述。可以详细查看[NiceVideoPlayer](https://github.com/jacky1234/NiceVideoPlayer)原文。    
+  目前我已经将NiceVideoPlayer框架加入到当前lib里面
+    
     
     
 
@@ -318,12 +315,111 @@
                   />
 
 
-    
-    
-    图片展示效果图
+####    ** API 24+ 动态申请权限封装**  
+   
+         项目使用[HiPermission](https://github.com/yewei02538/HiPermission)封装框架，本lib提供一个调用接口
+	 
+	 调用代码：
+	 
+	   多个权限申请
+	   
+	   List<PermissionItem> permissionItems = new ArrayList<PermissionItem>();	
+	   
+           permissionItems.add(new PermissionItem(Manifest.permission.CAMERA, "Camera", R.drawable.permission_ic_camera));	
+	   
+           permissionItems.add(new PermissionItem(Manifest.permission.READ_PHONE_STATE, "Phone", R.drawable.permission_ic_phone));   
+	   
+	    /**
+	    
+              * @param  activity Context
+	      
+              *@param  permissions list 多个权限
+	      
+              *@param  title   弹窗title
+	      
+              *@param  msg    弹窗描述
+	      
+              *@param  color   颜色
+	      
+              *@param  animStyleId  动画风格
+	      
+              *@param  styleId  风格
+	      
+              *@param  mCallback 申请回调接口
+	      
+              */	      
+	      
+           支持多种接口调用可以省略（弹窗title、弹窗描述、颜色、动画风格、风格）
+	   
+	  IPermissionQueue.SendMutiPermissionQueue(this,permissionItems,"Permission","Please allow access to  Permission",R.color.colorPrimary,
+                R.style.PermissionAnimFade, R.style.PermissionDefaultNormalStyle,new PermissionCallback() {
+		
+                    @Override
+		    
+                    public void onClose() {
 
-        ![image](https://github.com/LeWaves/Seconds-frameWork/blob/master/screenshots/imageview.png)
+                    }
 
+                    @Override
+		    
+                    public void onFinish() {
+
+                    }
+
+                    @Override
+		    
+                    public void onDeny(String permission, int position) {
+
+                    }
+
+                    @Override
+		    
+                    public void onGuarantee(String permission, int position) {
+
+                    }
+		    
+                });
+
+
+
+
+         
+	  单个权限申请
+	 
+	  String permission = Manifest.permission.READ_PHONE_STATE;
+	 
+	 IPermissionQueue.SendSingleMutiPermissionQueue(this,permission,new PermissionCallback() {
+                    @Override
+                    public void onClose() {
+
+                    }
+
+                    @Override
+                    public void onFinish() {
+
+                    }
+
+                    @Override
+                    public void onDeny(String permission, int position) {
+
+                    }
+
+                    @Override
+                    public void onGuarantee(String permission, int position) {
+
+                    }
+                });
+           
+	  
+####    ** 滑动控件的封装**  
+        此模块主要是针对scrollView 嵌套 recycleview\listview\viewpage,以及recycleview addHeaderView\addFooterView,
+     功能的调用请看Demo里面的实现。此模块同时支持（京东和淘宝）商城 商品上拉查图文详情。lib中实现了很多控件，在这里就不列出来，大家可以查看demo中如何使用。
+
+
+
+    效果图
+
+        ![image](https://github.com/LeWaves/frame-lib/blob/master/screenshots/waves.gif)
 
 
     
