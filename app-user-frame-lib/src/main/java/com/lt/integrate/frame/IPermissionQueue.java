@@ -15,6 +15,18 @@ import me.weyye.hipermission.PermissionItem;
 
 public class IPermissionQueue {
 
+
+    /**
+     * @param  activity Context
+     *@param  permissions list 多个权限
+     *@param  title   弹窗title
+     *@param  msg    弹窗描述
+     *@param  color   颜色
+     *@param  animStyleId  动画风格
+     *@param  styleId  风格
+     *@param  mCallback 申请回调接口
+     * */
+
     public static void SendMutiPermissionQueue(Context activity, List<PermissionItem> permissions,
                               String title,String msg,int color,int animStyleId,int styleId,
                               PermissionCallback  mCallback ){
@@ -81,15 +93,5 @@ public class IPermissionQueue {
         HiPermission.create(activity)
                 .checkSinglePermission(permissions,mCallback);
     }
-    public static void SendSingleMutiPermissionQueue(Context activity, String permissions,int styleId,PermissionCallback  mCallback ){
-        HiPermission.create(activity)
-                .style(styleId)
-                .checkSinglePermission(permissions,mCallback);
-    }
-    public static void SendSingleMutiPermissionQueue(Context activity, String permissions,int animStyleId,int styleId,PermissionCallback  mCallback ){
-        HiPermission.create(activity)
-                .animStyle(animStyleId)
-                .style(styleId)
-                .checkSinglePermission(permissions,mCallback);
-    }
+
 }

@@ -109,7 +109,7 @@ public class PermissionActivity extends AppCompatActivity {
     }
 
     public void onSiglePermissionStyleView(View v){
-        IPermissionQueue.SendSingleMutiPermissionQueue(this,permission,R.style.PermissionAnimFade, R.style.PermissionDefaultNormalStyle,new PermissionCallback() {
+        IPermissionQueue.SendSingleMutiPermissionQueue(this,permission,new PermissionCallback() {
                     @Override
                     public void onClose() {
 
