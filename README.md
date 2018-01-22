@@ -56,7 +56,7 @@
    
            ...      
 	   
-           compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.0'
+             compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.1'
               
        }
        
