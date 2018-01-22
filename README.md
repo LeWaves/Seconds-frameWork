@@ -313,6 +313,12 @@
                   android:id="@+id/roundImageView"
 
                   />
+		  
+		  
+
+## **版本v0.1.1新增功能说明**
+
+     以下为v0.1.1版本更新的控件，同时也替换了视频框架（NiceVideoPlayer）,v0.1.0版本中的JiecaoVideoPlayer弃用。
 
 
 ####    ** API 24+ 动态申请权限封装**  
