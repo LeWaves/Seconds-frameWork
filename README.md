@@ -56,7 +56,9 @@
    
            ...      
 	   
-             compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.1'
+	     compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.0'//早期版本
+	  
+             compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.1'//最新版本
               
        }
        
