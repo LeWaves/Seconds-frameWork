@@ -3,12 +3,263 @@
 
     <item
         is-multidex="false"
-        jar="D:\Android_work\androidStudio\work\frame-lib-demo\Develop-the-App-framework\app-user-frame-lib\build\intermediates\bundles\default\classes.jar"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\5db0ef71739390f5912a686ccd460c94\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="18"
         optimize="true"
-        revision="26.0.1"
-        sha1="45855c8a9352accd31ba8d3c0aa3340fca15bf86">
-        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Develop-the-App-framework\app\build\intermediates\pre-dexed\debug\classes_79e386a366e887ee563de4ce49d5763ca15c49fb.jar" />
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\banner-1.4.8.aar\91d54da71bddee93a6946b0c3a4794e3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="86c62d01a8ee039fc5f629a34d15de8bf275b5db">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.8.3.aar\cadcb64f640b61746ff2f967da0ff2ad\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69253a57e2371f2889f0528f854efeb88c0978e7">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\5738e1b800c161111e2bb898895be981\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\518264365b31543537d5a5ca1c219b68\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\5c428a8ae43ea52e89f71175443c27ef\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\e49ba1ee214e27e7be9c2446a42124da\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app-user-frame-lib\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b3150aba51daf3c276814e41f977f0f2c1ff9393">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\21f2bbf7bde49aef6bb08959b8f8e35d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\3d2e10767e17a4ae5cbc6cf9fda1c511\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\2133d807e829588c0d92bd47ab2a60cc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\96ff72b0cbf6f036fe603914727c2e49\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv7a-0.8.3.aar\7f03ea1761a9f4efe179f7965184a631\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bbfd38c2ee1b939d1b470cf409debe6ac1b19800">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\1b9435eb6d9ec6ce27434302ec0a7633\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\b7054da9a387dbf7ee30654101716d42\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\49994eb97d3486e136dc6d663d1ce960\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv5-0.8.3.aar\b268180c8665223c41e179d993d4d6ec\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="66c795a8c2d4b5be018a93a147ef1e7e26d7a4b6">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\library-1.0.7.aar\f04f539e20f9e5dc53049cef557835d3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ac813a0c2bd00ca9b36e9c1b7ffa76f3193033ec">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\3107f2a1b997bca920f9c9c13bae542e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ba65b7272664ba026cd660decc222215a5bfb1">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\cfa5ce9e3d5f04ccac6ecb8c71ee38bd\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\iclick\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86-0.8.3.aar\d8eecb60549d4c7cd4661f6bf0bc1112\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3809b41896b3a1dea1d5205e86364e42609bbd5">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_work\androidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\Android_work\androidStudio\work\frame-lib-demo\Seconds-frameWork\app\build\intermediates\transforms\preDex\release\15.jar" />
     </item>
 
 </items>
