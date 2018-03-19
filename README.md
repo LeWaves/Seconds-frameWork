@@ -58,7 +58,7 @@
 	   
 	     compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.0'//早期版本
 	  
-             compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.1'//最新版本
+             compile 'com.github.LeWaves:Seconds-frameWork:v-0.1.1.1'//最新版本
               
        }
        
@@ -70,6 +70,19 @@
 ###    ** mainfast.xml添加权限**
     
     <uses-permission android:name="android.permission.INTERNET" />
+    
+##    **新增**    
+      **MultipleTextViewGroup 自定义 view**
+      应用场景 ：标签
+      功能： 根据屏幕宽度自适应显示标签，可以设置显示行数
+        
+        textViewGroup = (MultipleTextViewGroup) findViewById(R.id.textViewGroup);
+	
+        textViewGroup.setMax_lins(1);//设置显示行数
+	
+        textViewGroup.setTextViews(groupList);//string集合
+      
+    
 
 ###    **网络请求**
 
