@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -100,17 +101,33 @@
                 android:layout_margin="15dp"
                 android:onClick="onShowPermissionRequest"/>
             <TextView
-                android:layout_width="300dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="滑動控件封裝"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:drawableLeft="@mipmap/scroll"
+            android:background="@drawable/text_bg"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:onClick="onShowScrollView"/>
+
+            <com.lt.integrate.frame.view.MultipleTextViewGroup
+                android:id="@+id/textViewGroup"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_height="wrap_content"
-                android:text="滑動控件封裝"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:padding="20dp"
-                android:drawableLeft="@mipmap/scroll"
-                android:background="@drawable/text_bg"
-                android:textSize="20dp"
-                android:layout_margin="15dp"
-                android:onClick="onShowScrollView"/>
+                app:textSize="12sp"
+                app:textWordMargin="10dp"
+                app:textLineMargin="10dp"
+                app:textColor="#ff0000"
+                app:textPaddingLeft="10dp"
+                app:textPaddingRight="10dp"
+                app:textPaddingTop="10dp"
+                app:textPaddingBottom="10dp"
+                app:overspread="false"/>
 
             <TextView
                 android:layout_width="match_parent"
