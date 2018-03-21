@@ -2,11 +2,16 @@ package com.lt.integrate.frame.http;
 
 import android.content.Context;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 
 import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -28,7 +33,7 @@ public class HttpJSONRequest {
      * 请求的参数
      */
     private JSONObject requestParameter;
-
+    private Map<String, String> requestHeaderParameter;
 
     /**
      * 请求成功的响应
@@ -172,7 +177,46 @@ public class HttpJSONRequest {
 
         RequestManager.getRequestQueue().add(mJsonObjectRequest);
     }
+    public HttpJSONRequest(int method, String url, Map<String, String> header, JSONObject parameter, RequestNetWork requestNetWork) {
+        this.method = method;
+        this.url = url;
+        this.requestNetWork = requestNetWork;
+        this.requestParameter = parameter;
+        this.requestHeaderParameter = header;
+        createHeaderJsonObjectRequest();
+    }
 
+    private void createHeaderJsonObjectRequest() {
+        JsonObjectRequest mJsonObjectRequest = new JsonObjectRequest(
+                method,
+                url,
+                requestParameter,
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        requestNetWork.onSuccess(response);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        requestNetWork.onFailure(error);
+                    }
+                }
+        ) {
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("Content-Type", "application/json");
+                if (requestHeaderParameter != null) {
+                    params.putAll(requestHeaderParameter);
+                }
+                return params;
+            }
+        };
+        mJsonObjectRequest.setRetryPolicy(new DefaultRetryPolicy(5* 1000, 1, 1.0f));
+        RequestManager.getRequestQueue().add(mJsonObjectRequest);
+    }
 
     private void initRequestQueue(Context context, String url){
        if (RequestManager.getRequestQueueNoThrowable() == null) {
