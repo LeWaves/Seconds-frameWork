@@ -8,6 +8,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
@@ -59,7 +60,19 @@ public class HttpJSONRequest {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        requestNetWork.onSuccess(response);
+                        if(response !=null) {
+                            requestNetWork.onSuccess(response);
+                        }else{
+
+                            try {
+                                JSONObject object = new JSONObject();
+                                object.put("msg","请求成功，暂无数据返回");
+                                requestNetWork.onSuccess(object);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
                     }
                 },
                 new Response.ErrorListener() {
@@ -93,7 +106,19 @@ public class HttpJSONRequest {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        requestNetWork.onSuccess(response);
+                        if(response !=null) {
+                            requestNetWork.onSuccess(response);
+                        }else{
+
+                            try {
+                                JSONObject object = new JSONObject();
+                                object.put("msg","请求成功，暂无数据返回");
+                                requestNetWork.onSuccess(object);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
                     }
                 },
                 new Response.ErrorListener() {
@@ -127,7 +152,19 @@ public class HttpJSONRequest {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        requestNetWork.onSuccess(response);
+                        if(response !=null) {
+                            requestNetWork.onSuccess(response);
+                        }else{
+
+                            try {
+                                JSONObject object = new JSONObject();
+                                object.put("msg","请求成功，暂无数据返回");
+                                requestNetWork.onSuccess(object);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
                     }
                 },
                 new Response.ErrorListener() {
@@ -163,7 +200,19 @@ public class HttpJSONRequest {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        requestNetWork.onSuccess(response);
+                        if(response !=null) {
+                            requestNetWork.onSuccess(response);
+                        }else{
+
+                            try {
+                                JSONObject object = new JSONObject();
+                                object.put("msg","请求成功，暂无数据返回");
+                                requestNetWork.onSuccess(object);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
                     }
                 },
                 new Response.ErrorListener() {
@@ -177,7 +226,8 @@ public class HttpJSONRequest {
 
         RequestManager.getRequestQueue().add(mJsonObjectRequest);
     }
-    public HttpJSONRequest(int method, String url, Map<String, String> header, JSONObject parameter, RequestNetWork requestNetWork) {
+    public HttpJSONRequest(Context context,int method, String url, Map<String, String> header, JSONObject parameter, RequestNetWork requestNetWork) {
+        initRequestQueue(context,url);
         this.method = method;
         this.url = url;
         this.requestNetWork = requestNetWork;
@@ -194,7 +244,19 @@ public class HttpJSONRequest {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        requestNetWork.onSuccess(response);
+                        if(response !=null) {
+                            requestNetWork.onSuccess(response);
+                        }else{
+
+                            try {
+                                JSONObject object = new JSONObject();
+                                object.put("msg","请求成功，暂无数据返回");
+                                requestNetWork.onSuccess(object);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                        }
                     }
                 },
                 new Response.ErrorListener() {
